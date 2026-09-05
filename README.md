@@ -22,36 +22,36 @@ The design uses six ADA4084‑2 dual op‑amps, chosen for their low noise, high
 This repository documents the entire engineering workflow, including schematic design, simulation, PCB layout, testing, and future improvements.
 
 System Architecture
-The signal chain is structured as follows:
+  The signal chain is structured as follows:
 
-Preamp Stage
-Differential microphone/sensor input
-RF/ESD protection
-Gain + impedance matching
+1) Preamp Stage
+* Differential microphone/sensor input
+* RF/ESD protection
+* Gain + impedance matching
 
-High‑Pass Filter (HPF)
+2) High‑Pass Filter (HPF)
 * Removes DC offset
 * Sets lower cutoff (~15–20 Hz depending on configuration)
 * Biased at VMID
 
-Low‑Pass Filter (LPF)
+3) Low‑Pass Filter (LPF)
 * Sallen‑Key topology
 * Sets upper cutoff (~15–20 kHz)
 * Unity gain
 * Biased at VMID
 
-ADC Driver
+4) ADC Driver
 
 * Fully differential
 * Sets ADC common‑mode
 * Drives AD4695 input stage
 
-ADC Interface
+5) ADC Interface
 * Reference (4.096 V)
 * LDO (3.3 V)
 * Digital interface pins
 
-Power Rails
+6) Power Rails
 * ±12 V analogue rails
 * 3.3 V LDO
 * VMID bias generator
@@ -64,6 +64,6 @@ Key Features
 * Full LTspice simulation of each stage
 * Modular archiecture for easy reuse
 
-Designed for PCB fabrication (JLCPCB)
+Fabricated by JLCPCB.
 
 Documented version control workflow
