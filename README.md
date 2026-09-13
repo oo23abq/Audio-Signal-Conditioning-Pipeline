@@ -1,9 +1,8 @@
 # Precision, Analogue Signal Conditioning Board for ADC Aquisition
-A completely analogue, front‑end signal chain for a high (16-bit) resolution AD4695 ADC model with VMID biasing
-Simulated and verified in LTspice & designed in KICAD.
 
 **Overview**
-This project implements a complete analogue front-end (AFE) for conditioning audio/sensor signals before digitisation by an AD4695 high‑resolution ADC. 
+* This project implements a complete analogue front-end (AFE) for conditioning audio/sensor signals before digitisation by an AD4695 high‑resolution ADC.
+* Simulated and verified in LTspice & designed in KICAD.
 
 The system includes:
 
