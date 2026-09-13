@@ -23,7 +23,7 @@ In total, the design uses 36 caps, 33 resistors, 2 silicon diodes, 3 connectors,
 This repository documents the entire engineering workflow, including schematic design, simulation, PCB layout, testing, and future improvements.
 
 System Architecture
-  The signal chain is structured as follows -->
+  *The signal chain is structured as follows -->
   
 1) Preamp Stage
     * Differential microphone/sensor input
