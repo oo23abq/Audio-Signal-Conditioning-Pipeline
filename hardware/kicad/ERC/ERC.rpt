@@ -1,0 +1,170 @@
+ERC report (2026-09-05T20:57:58+0100, Encoding UTF8)
+
+***** Sheet /
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2415 mils, 3250 mils): Horizontal Wire, length 185 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2600 mils, 3050 mils): Horizontal Wire, length 125 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(700 mils, 4350 mils): Horizontal Wire, length 280 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2390 mils, 4400 mils): Horizontal Wire, length 110 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4225 mils, 4450 mils): Horizontal Wire, length 225 mils
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(4350 mils, 3250 mils): Symbol U6 [OpAmps/ADA4084-2]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(2100 mils, 4050 mils): Symbol VCM1 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(3000 mils, 4050 mils): Symbol VMIC1 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(4000 mils, 3900 mils): Symbol BUFF1 [OpAmps/ADA4084-2]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5150 mils, 3650 mils): Symbol #GND0105 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5150 mils, 3650 mils): Symbol #GND0128 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5150 mils, 3650 mils): Symbol #GND0150 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5150 mils, 3650 mils): Symbol #GND0149 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5500 mils, 4000 mils): Symbol BUFF2 [OpAmps/ADA4084-2]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(6250 mils, 5000 mils): Symbol #GND0101 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(6250 mils, 5000 mils): Symbol #GND0151 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(6250 mils, 5000 mils): Symbol #GND0152 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(6250 mils, 5000 mils): Symbol #GND0127 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(7150 mils, 4000 mils): Symbol DIFF1 [OpAmps/ADA4084-2]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(7950 mils, 4900 mils): Symbol #GND0124 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(7950 mils, 4900 mils): Symbol #GND0102 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(7950 mils, 4900 mils): Symbol #GND0147 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(7950 mils, 4900 mils): Symbol #GND0148 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(8700 mils, 4250 mils): Symbol D1 [Contrib/Toshiba/diode/BAV99]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(9200 mils, 4450 mils): Symbol D2 [Contrib/Toshiba/diode/BAV99]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(4050 mils, 3250 mils): Symbol VREF2 [voltage]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(5150 mils, 3450 mils): Global Label 'LDO'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5150 mils, 3550 mils): Symbol VLDO2 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5900 mils, 3350 mils): Symbol V7 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5900 mils, 4300 mils): Symbol V-2 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(6750 mils, 3300 mils): Symbol V12 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(6800 mils, 4250 mils): Symbol V17 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(4750 mils, 3800 mils): Symbol U11 [ADC/AD4695]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(5700 mils, 2700 mils): Global Label 'VLDO'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(6300 mils, 3200 mils): Symbol VCNV2 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(6300 mils, 3550 mils): Symbol V4 [voltage]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5450 mils, 3350 mils): Symbol U1 [OpAmps/ADA4084-2]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(5450 mils, 3400 mils): Global Label 'HP_IN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(6450 mils, 3500 mils): Global Label 'HP_OUT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(7250 mils, 3400 mils): Global Label 'LP_IN'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(8150 mils, 3400 mils): Global Label 'LP_OUT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(9000 mils, 3350 mils): Global Label 'ADC_IN'
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ltspice'
+    ; warning
+    @(5700 mils, 3700 mils): Symbol U4 [OpAmps/ADA4084-2]
+
+***** Sheet /Preamp Stage/
+[multiple_net_names]: Both GND and 0 are attached to the same items; GND will be used in the netlist
+    ; warning
+    @(4950 mils, 3550 mils): Global Label 'GND'
+    @(7950 mils, 4900 mils): Symbol #GND0124 Pin  [Power input, Line]
+
+***** Sheet /HPF/
+[multiple_net_names]: Both GND and VMID are attached to the same items; GND will be used in the netlist
+    ; warning
+    @(6050 mils, 2500 mils): Global Label 'GND'
+    @(4850 mils, 4300 mils): Global Label 'VMID'
+
+***** Sheet /LPF/
+[multiple_net_names]: Both VMID and GND are attached to the same items; VMID will be used in the netlist
+    ; warning
+    @(5200 mils, 3000 mils): Global Label 'VMID'
+    @(6200 mils, 2950 mils): Symbol #PWR08 Pin 1 [Power input, Line]
+
+***** Sheet /ADC Driver/
+[multiple_net_names]: Both GND and VMID are attached to the same items; GND will be used in the netlist
+    ; warning
+    @(5600 mils, 3850 mils): Global Label 'GND'
+    @(5100 mils, 2850 mils): Global Label 'VMID'
+
+***** Sheet /ADC Interface/
+[multiple_net_names]: Both AGND and GND are attached to the same items; AGND will be used in the netlist
+    ; warning
+    @(6750 mils, 3100 mils): Global Label 'AGND'
+    @(6900 mils, 3200 mils): Symbol #PWR013 Pin 1 [Power input, Line]
+
+***** Sheet /Power Rails/
+
+***** Sheet /Test Points/
+
+***** Sheet /Optional Child Sheet/
+
+ ** ERC messages: 48  Errors 0  Warnings 48
