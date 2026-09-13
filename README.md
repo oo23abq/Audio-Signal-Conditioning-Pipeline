@@ -17,7 +17,9 @@ The system includes:
 * Full hierarchical KiCad schematic design
 * LTspice simulation of all analogue blocks
 
-The design uses six ADA4084‑2 dual op‑amps, chosen for their low noise, high bandwidth, and excellent linearity.
+In total, the design uses 36 caps, 33 resistors, 2 silicon diodes, 3 connectors, 15 test points and a selected of 10 ICs. 
+*  Total = 99 components  
+* The six opamps used were all ADA4084‑2 dual models, chosen for their low noise, high BW, and excellent linearity.
 
 This repository documents the entire engineering workflow, including schematic design, simulation, PCB layout, testing, and future improvements.
 
