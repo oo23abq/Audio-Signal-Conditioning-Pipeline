@@ -1,5 +1,5 @@
 # Precision, Analogue Signal Conditioning Board for ADC Aquisition
-A completely analogue, front‑end signal chain (HPF → LPF → ADC driver) for high‑resolution AD4695 acquisition with VMID biasing
+A completely analogue, front‑end signal chain for a high (16-bit) resolution AD4695 ADC model with VMID biasing
 Simulated and verified in LTspice & designed in KICAD.
 
 **Overview**
