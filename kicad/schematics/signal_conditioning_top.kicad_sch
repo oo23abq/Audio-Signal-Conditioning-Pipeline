@@ -1,0 +1,609 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "73fe73e5-09b7-4347-b2d4-ab4312e9cf75")
+	(paper "A4")
+	(title_block
+		(title "Audio AFE Top Level Structure")
+		(date "2026-09-03")
+		(rev "AA")
+		(company "By Omar Othman")
+	)
+	(lib_symbols)
+	(text "NOTES\n \nAll opamps powered from ±12 V rails for max headroom\nDriver designed for compatibility with AD4695 / CS5312class ADCs\nFinal analog bandwidth ≈ 15 kHz (audio-band)\nV+ mic+ 0 {V(mic_cm) + V(mic_diff)/2}\nV- mic- 0 {V(mic_cm) - V(mic_diff)/2}\n \nDesign Target = 100dB CMRR"
+		(exclude_from_sim no)
+		(at 147.574 99.314 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "5827cdb0-4602-42bd-94b5-490e5792ea4f")
+	)
+	(text "Project Specs\n\nBalanced mic input with\n- RF filtering\n- ESD protection\n- INA163 instrumentation amplifier providing +40 dB gain.\n \nIN0 driven by conditioned AFE output (ADC_IN, low‑Z, ~1 VRMS max)"
+		(exclude_from_sim no)
+		(at 143.256 52.07 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "972b1b9c-6f1d-4d6d-9266-ae63d6dbbb77")
+	)
+	(text "Schematic Hierarchy"
+		(exclude_from_sim no)
+		(at 67.818 25.4 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "ed12d22f-83a3-4f0b-bfad-e78860ec43bb")
+	)
+	(wire
+		(pts
+			(xy 66.04 77.47) (xy 69.215 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe98de9-1ce7-4a30-9b8a-add46b04f352")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a6c384-9ea8-436b-aa82-225467010fec")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 68.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1280519f-6912-4d48-94e0-f744a6ba6598")
+	)
+	(wire
+		(pts
+			(xy 61.341 78.74) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1761a0af-9556-44f3-85c4-ba87146339d4")
+	)
+	(wire
+		(pts
+			(xy 21.59 129.54) (xy 21.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3deafb76-3787-4159-a1e1-7754a5d98737")
+	)
+	(wire
+		(pts
+			(xy 17.78 97.79) (xy 17.78 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afd9489-6296-41ff-8a80-f1ac05357e2b")
+	)
+	(wire
+		(pts
+			(xy 63.5 111.76) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e29941-7252-4411-a2da-daee26d9ca1d")
+	)
+	(wire
+		(pts
+			(xy 68.58 113.03) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e642a6b-fc02-4cf2-9634-d398235caf16")
+	)
+	(wire
+		(pts
+			(xy 21.59 144.78) (xy 25.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67477aae-2b1b-4c0b-b7f0-11ec0a6718d9")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7b9177-4455-451c-b57e-1a882109bbe3")
+	)
+	(wire
+		(pts
+			(xy 107.315 113.03) (xy 113.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844011ac-5901-41a9-9fcb-606aefd538cf")
+	)
+	(wire
+		(pts
+			(xy 63.5 129.54) (xy 21.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2b0e2f-93cf-49d2-a8a6-4d6bafdb484d")
+	)
+	(wire
+		(pts
+			(xy 66.04 77.47) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91937ebd-65ad-431b-b951-ccc2d9fc11ae")
+	)
+	(wire
+		(pts
+			(xy 60.706 111.76) (xy 63.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96534ba0-95c2-47b1-aac1-e65d5587c5c2")
+	)
+	(wire
+		(pts
+			(xy 113.03 97.79) (xy 113.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b850b35-6feb-41f6-9d53-07dcbc585dc2")
+	)
+	(wire
+		(pts
+			(xy 68.58 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10005b7-4a26-4967-90a0-43ec0b1f3326")
+	)
+	(wire
+		(pts
+			(xy 17.78 97.79) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf419ad-eab2-4df5-b722-1550d45df09a")
+	)
+	(wire
+		(pts
+			(xy 17.78 110.49) (xy 24.892 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6c61c6-c53b-4563-9c92-7964b528f64e")
+	)
+	(sheet
+		(at 24.892 101.219)
+		(size 35.814 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a795471-79ef-40f2-bd50-57899c234fa8")
+		(property "Sheetname" "ADC Driver"
+			(at 24.892 100.5074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conditioning_driver.kicad_sch"
+			(at 24.892 123.3936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 60.706 111.76 0)
+			(uuid "49427616-c6ce-4b4b-b985-5f82792a43be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LP_OUT" input
+			(at 24.892 110.49 180)
+			(uuid "03e8420f-7b4d-487a-b64b-cbf585998e48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "signal_conditioning_top"
+				(path "/73fe73e5-09b7-4347-b2d4-ab4312e9cf75"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 40.64)
+		(size 36.195 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c4d9126-0fd8-44e3-a364-36af2fd44ebb")
+		(property "Sheetname" "Power Rails"
+			(at 25.4 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conditioning_power.kicad_sch"
+			(at 25.4 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "signal_conditioning_top"
+				(path "/73fe73e5-09b7-4347-b2d4-ab4312e9cf75"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.215 66.04)
+		(size 32.385 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53204c5f-39a9-4284-b3aa-6e3547979daf")
+		(property "Sheetname" "HPF"
+			(at 69.215 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conditioning_highpass.kicad_sch"
+			(at 69.215 88.8496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HP_OUT" output
+			(at 101.6 76.2 0)
+			(uuid "2f42108f-259d-4bff-809a-430017c0c11e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HP_IN" input
+			(at 69.215 77.47 180)
+			(uuid "e87ce83a-ac13-4295-8479-d1c2469dbba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "signal_conditioning_top"
+				(path "/73fe73e5-09b7-4347-b2d4-ab4312e9cf75"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 136.525)
+		(size 31.75 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55e5dd6d-5672-48e0-a229-926288285d17")
+		(property "Sheetname" "Test Points"
+			(at 69.85 135.8134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conditioning_testpoints.kicad_sch"
+			(at 69.85 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "signal_conditioning_top"
+				(path "/73fe73e5-09b7-4347-b2d4-ab4312e9cf75"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 133.985)
+		(size 37.465 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "587e60d7-24f0-4341-8e6d-68c1d00962d6")
+		(property "Sheetname" "ADC Interface"
+			(at 25.4 133.2734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conditioning_adc.kicad_sch"
+			(at 25.4 158.6996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LP_OUT" input
+			(at 25.4 144.78 180)
+			(uuid "8e371527-8b7f-4229-a1ff-b44510b27b07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "signal_conditioning_top"
+				(path "/73fe73e5-09b7-4347-b2d4-ab4312e9cf75"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 100.584)
+		(size 36.195 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73473bc5-fdf1-46d5-8ae4-51277b92eae6")
+		(property "Sheetname" "LPF"
+			(at 71.12 99.8724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conditioning_lowpass.kicad_sch"
+			(at 71.12 125.2986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LP_OUT" output
+			(at 107.315 113.03 0)
+			(uuid "9bba6999-b2d2-4154-b949-060c4392efa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HP_OUT" input
+			(at 71.12 113.03 180)
+			(uuid "148abbb6-19a9-4d16-8290-0a18e256236a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "signal_conditioning_top"
+				(path "/73fe73e5-09b7-4347-b2d4-ab4312e9cf75"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.146 68.072)
+		(size 36.195 23.495)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb289ef6-635f-481a-a644-e9a0b8472897")
+		(property "Sheetname" "Preamp Stage"
+			(at 25.146 67.3604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conditioning_preamp.kicad_sch"
+			(at 25.146 92.1516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HP_IN" output
+			(at 61.341 78.74 0)
+			(uuid "e9980355-f68c-4873-8f7e-3f0beb318e62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "signal_conditioning_top"
+				(path "/73fe73e5-09b7-4347-b2d4-ab4312e9cf75"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
