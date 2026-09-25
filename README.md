@@ -66,4 +66,33 @@ Key Features
 
 Fabricated by JLCPCB.
 
-Documented version control workflow
+
+```markdown
+## Repository Structure
+
+```text
+├── docs/                                       # General Documentation  
+│   └── report/                                 
+│       └── sig_conditioning_board_report.docx  # Lab Test Report 
+├── gerbers/                                    # Manufacturing Files
+│   └── audioafegerbers.zip                     # Production Gerber and drill archives
+├── images/                                     # 3D Renders 
+│   └── pcb/                                    
+│       └── 3dpcb.png                           # Assembled Board 
+├── kicad/                                      # Complete KiCad hardware project
+│   ├── schematics/                             # Hierarchical Schematics
+│   │   ├── signal_conditioning_top.kicad_sch   # Top Level 
+│   │   ├── conditioning_input.kicad_sch        # Input Stage
+│   │   ├── conditioning_preamp.kicad_sch       # Preamplifier 
+│   │   ├── conditioning_highpass.kicad_sch     # High-Pass Filter
+│   │   ├── conditioning_lowpass.kicad_sch      # Low-Pass Filter
+│   │   ├── conditioning_driver.kicad_sch       # ADC Driver / Buffer
+│   │   ├── conditioning_adc.kicad_sch          # ADC Interface
+│   │   ├── conditioning_power.kicad_sch        # Power / Rails 
+│   │   └── conditioning_testpoints.kicad_sch   # Test Points
+│   ├── signal_conditioning_top.kicad_pcb       # PCB Board File 
+│   └── signal_conditioning_bom.csv             # Bill of Materials
+├── ltspice/                                    # Analogue Simulation 
+│   └── waveform.png                            # Transient / Hz Response Plots 
+├── LICENSE                                     # MIT License File
+└── README.md                                   # Project Guidance / Info 
