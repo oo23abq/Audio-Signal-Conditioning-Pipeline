@@ -67,10 +67,9 @@ Key Features
 Fabricated by JLCPCB.
 
 
-
+## Repository Structure
 
 ```markdown
-## Repository Structure
 
 ```text
 ├── docs/                                       # General Documentation  
